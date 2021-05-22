@@ -6,7 +6,7 @@ import recipe from 'assets/recipe.png'
 import recipeSelected from 'assets/recipeselected.png'
 import my from 'assets/my.png'
 import mySelected from 'assets/myselected.png'
-import Home from './home/Home'
+import { Home } from './index'
 
 export default class Layout extends React.Component {
     constructor(props) {

@@ -22,6 +22,7 @@ export const SwiperWrap=styled.div `
 
 export const HotcateWrap=styled.div `
 header{
+    color:#666;
     line-height:.5rem;
     background:#fff;
     padding-left:.2rem;
@@ -32,42 +33,53 @@ header{
 
 
 export const HotListWrap=styled.div `
-padding:0 .2rem .2rem .2rem
-
 header{
     color:#666;
-    padding-bottom:.1rem;
+    line-height:.5rem;
+    background:#fff;
+    padding-left:.2rem;
+   
 }
  >div{
     display:flex;
     flex-wrap:wrap;
     figure{
-        width:40%;
-        margin: 1em 18px;
+        border-radius: 3px;
+        background:#fff;
+        width:48%;
+        margin:3px auto;
         img{
+            border-radius: 3px 3px 0px 0px;
             width:100%
         }
         // 给奇数行偶数行设置
-        &:nth-child(odd){
+        /* &:nth-child(odd){
              padding-right:.05rem;
         }
+        */
         
         &:nth-child(even){
-             padding-left:.05rem;
-        }
+             margin-left: 1.5px;
+        } 
         figcaption{
             display:flex;
             flex-direction:column;
             justify-content:center;
             align-items:center;
             height:.6rem;
+           
+        }
+        div{
+            display: flex;
         }
         h3{
             font-size:.12rem
         }
-        h5{
-            font-size:.12rem;
-            font-weight:narmal;
+        h6{
+            margin-left: 5px;
+            color:#666;
+            font-size:10px;
+            font-weight:normal;
         }
 
     }

@@ -3,6 +3,7 @@ import Header from './Header'
 import Swiper from './Swiper'
 import Search from '@/search/Search'
 import HotCate from './HotCate'
+import HotList from './hotlist'
 
 export default class Home extends Component {
     render() {
@@ -12,6 +13,7 @@ export default class Home extends Component {
                 <Swiper></Swiper>
                 <Search></Search>
                 <HotCate></HotCate>
+                <HotList></HotList>
             </div>
         )
     }
